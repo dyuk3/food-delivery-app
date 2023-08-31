@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply pt-40;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply whitespace-nowrap overflow-hidden text-ellipsis;
+  }
+  .desc {
+    @apply font-extralight text-base text-gray-600;
+  }
+}
